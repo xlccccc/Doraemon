@@ -3,7 +3,7 @@ name: Develop CI
 on:
   push:
     branches-ignore: [ main ]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
